@@ -53,7 +53,7 @@ ${colmap_folder}/colmap feature_extractor \
 	--ImageReader.single_camera 1 \
 	--SiftExtraction.use_gpu 1
 	
-${colmap_folder}/colmap exhaustive_matcher \
+${colmap_folder}/colmap sequential_matcher \
     --database_path ${DATABASE} \
     --SiftMatching.use_gpu 1 
     
